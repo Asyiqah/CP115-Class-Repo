@@ -22,6 +22,7 @@ if total > 0:
 else:
     pass_rate = 0
 
+
 print(passing_count)
 print(failing_count)
 print(f"{pass_rate:.2f}")
