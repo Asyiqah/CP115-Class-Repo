@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-4"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-30 02:36:09 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0zMDswMjoyNTozNCBQTTsyNzUw"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0zMDswMjozNjowOSBQTTsxOzI4NjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Distance, PetrolNeeded, TotalCost" type="Real" array="False" size=""/>
+            <output expression="&quot;Enter the distance in kilometers : &quot;" newline="True"/>
+            <input variable="Distance"/>
+            <assign variable="PetrolNeeded" expression="(Distance/100)"/>
+            <assign variable="TotalCost" expression="PetrolNeeded * 8 * 2.05"/>
+            <output expression="&quot;The total cost of petrol : RM &quot; +TotalCost" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

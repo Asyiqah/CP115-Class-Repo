@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-5"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-30 02:53:02 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0zMDswMjozNzo1NSBQTTsyNzU2"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0zMDswMjo1MzowMiBQTTsxOzI4NTQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NumberOfPhotos" type="Integer" array="False" size=""/>
+            <declare name="TotalCost" type="Real" array="False" size=""/>
+            <output expression="&quot;Amount of Photos needed : &quot;" newline="True"/>
+            <input variable="NumberOfPhotos"/>
+            <assign variable="TotalCost" expression="NumberOfPhotos * 0.50 * 2"/>
+            <output expression="&quot;Total cost of the orders : &quot; +TotalCost" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
