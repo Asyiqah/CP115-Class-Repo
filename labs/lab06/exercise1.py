@@ -1,10 +1,9 @@
-movie_title = "Avengers Endgame"  
-either2d_or_3d = "3D"                   
-ticket_price = 18.00              
-number_of_tickets = 3             
-is_weekend = True                 
-has_student_discount = False        
-popcorn_combo = "Large"            
-total_price = 54.00              
-customer_age = 25                
-member_id = "M1234"
+
+TotalCoffee = 3.50*2
+TotalMuffin = 2.10*3
+TotalWater  = 1.05*4
+Subtotal    = float(TotalCoffee + TotalMuffin + TotalWater)
+Tax         = float(0.06 * Subtotal)
+Total       = float(Tax + Subtotal)
+
+receipt = print (f"========== RECEIPT ==========\nItem\tPrice\tQty\tTotal\nCoffee\t$3.50\t2\t${round(TotalCoffee,2)}\nMuffin\t$2.10\t3\t${round(TotalMuffin,2)}\nWater\t$1.05\t4\t${TotalWater}\n------------------------------\nSubtotal\t${Subtotal}\nTax (6%)\t${Tax}\nTotal\t    ${Total}\n============================")
